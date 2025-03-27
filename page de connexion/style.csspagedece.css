@@ -1,0 +1,57 @@
+body {
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+
+}
+
+form {
+    margin-top: 150px;
+    background-color: rgb(230, 230, 230);
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+
+}
+
+button {
+    background-color: rgb(167, 158, 158);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+form h1 {
+    color: brown;
+    text-align: center;
+}
+
+form h2 {
+    text-align: center;
+}
+
+form .inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+
+}
+
+form .inputs input[type="email"],
+input[type="password"] {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+button:hover {
+    background-color: brown;
+    cursor: pointer;
+}
